@@ -18,6 +18,20 @@ ClaudeRepo/
 └── frontend/      ← web page (added on branch feature/frontend)
 ```
 
+## How to run it
+1. **Backend** (in one terminal):
+   ```
+   cd backend
+   pip install -r requirements.txt
+   uvicorn app:app --reload
+   ```
+2. **Frontend** (in a second terminal):
+   ```
+   cd frontend
+   python -m http.server 5500
+   ```
+3. Open http://127.0.0.1:5500 and search for e.g. *Lisboa*.
+
 ## About idealista
 idealista does not allow scraping its website. It offers an official API
 (https://developers.idealista.com) that requires an API key.
