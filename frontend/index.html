@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>House Hunting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>House Hunting</h1>
+
+    <!-- The search form: what the user is looking for -->
+    <form id="search-form">
+      <label>City
+        <input id="city" type="text" placeholder="e.g. Lisboa" required>
+      </label>
+      <label>Max price (€)
+        <input id="max-price" type="number" min="0" step="1000" placeholder="e.g. 300000">
+      </label>
+      <label>Min rooms
+        <input id="min-rooms" type="number" min="0" value="1">
+      </label>
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- Status line and results are filled in by app.js -->
+    <p id="status"></p>
+    <ul id="results"></ul>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

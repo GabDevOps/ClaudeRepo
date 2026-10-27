@@ -1,0 +1,62 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f5f6f8;
+  color: #222;
+  margin: 0;
+}
+
+main {
+  max-width: 640px;
+  margin: 40px auto;
+  padding: 0 16px;
+}
+
+form {
+  display: grid;
+  gap: 12px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  font-weight: 600;
+}
+
+input {
+  padding: 8px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px;
+  font-size: 1rem;
+  background: #2b6cb0;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#results {
+  list-style: none;
+  padding: 0;
+}
+
+#results li {
+  background: #fff;
+  margin-top: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+  font-weight: 700;
+  color: #2b6cb0;
+}
