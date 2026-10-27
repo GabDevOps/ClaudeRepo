@@ -1,0 +1,14 @@
+# Files Git should NOT upload to GitHub
+
+# Python leftovers
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets (API keys) – never commit these!
+.env
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
